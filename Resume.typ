@@ -85,7 +85,7 @@
   name: "API World & CloudX 2024 Hackathon: Scrutiny.ai",
   role: "Full-Stack Developer",
   dates: dates-helper(start-date: "Oct. 2024", end-date: "Nov. 2024"),
-  url: "https://github.com/CloudApiHackathon",
+  url: "github.com/CloudApiHackathon",
 )
 - Created an integrated interview platform with *TypeScript* and *Next.js* with built-in code-based online assessment support, which aims to streamline the interview process.
 - Implemented serverless computing with *Supabase* edge functions and *OAuth 2* service with Okta *Auth0*, ensuring high scalability and security.
@@ -95,7 +95,7 @@
   name: "Bachelor's Capstone: AI Student Advisor",
   role: "Software Architect & Tech Lead",
   dates: dates-helper(start-date: "Jan. 2024", end-date: "Apr. 2024"),
-  url: "https://github.com/AI-Student-Advisor",
+  url: "github.com/AI-Student-Advisor",
 )
 - Constructed a *Conversational GenAI* assitant based on *Retrieval Augmented Generation (RAG)* with *TypeScript*, *React*, *NextUI*, *Express.js*, *MongoDB*, *Langchain*, and *Pinecone* for personalized guidance on students' academic paths. Students can consult on topics varying from choosing degree programs to selecting courses aligned with academic goals.
 - Performed data collection with *Python* and *scrapy* from the University's public catalog.
