@@ -72,10 +72,12 @@
   [= #(author)]
 
   // Personal Info Helper
-  let contact-item(value, prefix: "", link-type: "") = {
+  let contact-item(value, prefix: "", link-type: "", display: "") = {
     if value != "" {
-      if link-type != "" {
+      if link-type != "" and display == "" {
         link(link-type + value)[#(prefix + value)]
+      } else if link-type != "" and display != "" {
+        link(link-type + value)[#display]
       } else {
         value
       }
@@ -90,10 +92,10 @@
         contact-item(phone),
         contact-item(location),
         contact-item(email, link-type: "mailto:"),
-        contact-item(github, link-type: "https://"),
+        contact-item(github, link-type: "https://", display: "GitHub"),
         contact-item(github2, link-type: "https://"),
-        contact-item(linkedin, link-type: "https://"),
-        contact-item(personal-site, link-type: "https://"),
+        contact-item(linkedin, link-type: "https://", display: "LinkedIn"),
+        contact-item(personal-site, link-type: "https://", display: "Portfolio"),
         contact-item(orcid, prefix: [#orcid-icon(color: rgb("#AECD54"))orcid.org/], link-type: "https://orcid.org/"),
       )
       items.filter(x => x != none).join("  |  ")
