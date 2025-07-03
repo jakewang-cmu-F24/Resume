@@ -1,10 +1,10 @@
-#import "resume/0.0.1/src/lib.typ": *
+#import "template/src/lib.typ": *
 
 #let name = "Xiaoxuan (Jake) Wang"
 #let location = "Mountain View, CA"
 #let email = "jakewang@andrew.cmu.edu"
-#let github = "github.com/wxx9248"
-#let github2 = "github.com/jakewang-cmu-F24"
+#let github-personal = "github.com/wxx9248"
+#let github-cmu = "github.com/jakewang-cmu-F24"
 #let linkedin = "linkedin.com/in/wxx9248"
 #let phone = "+1 (650) 602-4058"
 #let orcid = "0009-0007-7089-749X"
@@ -14,8 +14,8 @@
   author: name,
   location: location,
   email: email,
-  github: github,
-  /* github2: github2, */
+  github-personal: github-personal,
+  github-cmu: github-cmu,
   linkedin: linkedin,
   phone: phone,
   /* personal-site: personal-site, */
@@ -25,6 +25,11 @@
   paper: "us-letter",
   author-position: center,
   personal-info-position: center,
+  author-font-size: 15pt,
+  font-size: 9pt,
+  section-title-padding-top: -8pt,
+  section-title-padding-bottom: -10pt,
+  personal-info-padding-top: 0em
 )
 
 == Education
@@ -85,6 +90,7 @@
   role: "Developer",
   dates: dates-helper(start-date: "May 23 2025", end-date: "May 24 2025"),
   url: "https://devpost.com/software/big-beautiful-browser",
+  display-url: false
 )
 - Architected an AI-powered browser extension using *React*, *TypeScript*, *Tailwind CSS*, and *LangGraph SDK* that enables natural language-driven web automation, earning *2 major awards in AgentHacks 2025*.
 - Engineered native *Chrome DevTools Protocol (CDP)* integration with advanced DOM manipulation to improve automation reliability.
@@ -95,6 +101,7 @@
   role: "Software Architect & Tech Lead",
   dates: dates-helper(start-date: "Jan. 2024", end-date: "Apr. 2024"),
   url: "github.com/AI-Student-Advisor",
+  display-url: false
 )
 - Assembled a *Conversational GenAI* assistant based on *Retrieval Augmented Generation (RAG)* with *TypeScript*, *React*, *NextUI*, *Express.js*, *MongoDB*, *Langchain*, and *Pinecone* for personalized guidance on students' academic paths. Students can consult on topics ranging from choosing degree programs to selecting courses aligned with academic goals.
 - Conducted data collection with *Python* and *scrapy* from the University's public catalog.
