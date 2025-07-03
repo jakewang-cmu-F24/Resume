@@ -50,8 +50,8 @@
 == Skills
 
 - *Areas of Interest*: Full-Stack Web Development, Desktop \& Mobile Software Development, OS Kernel Development, Embedded Software \& Firmware Development
-- *Programming Languages*: C/C++, Python, JavaScript/TypeScript, Java, Go, Kotlin, Bash, x86 Assembly, C\#, F\#, OCaml, Rust
-- *Technologies*: HTML/CSS, React, Vue, Tailwind CSS, Express.js, Next.js, Socket.IO, MongoDB, Firebase, RDBMS, Jetpack Compose, Qt, Git, Linux, Docker, NGINX, WebSocket, Protocol Buffer, gRPC, GitHub Actions, OpenAPI, Google Cloud Platform, Oracle Cloud Infrastructure
+- *Programming Languages*: Python, JavaScript/TypeScript, C/C++, Java, Go, Bash, Assembly, F\#, C\#, Kotlin, Rust
+- *Technologies*: FastAPI, LangChain, Pydantic, SQLAlchemy, Scrapy, pygame, React, Vue.js, Next.js, Express.js, jQuery, Socket.IO, Vite, Jest, CMake, Qt, Arduino, Gradle, JUnit, Jetpack Compose, gRPC, Protocol Buffer, HTML/CSS, Tailwind CSS, PostgreSQL, MongoDB, Docker, Google Cloud Platform, Git, GitHub Actions, Linux, RabbitMQ, Nginx, WebSocket, OpenAPI, Firebase
 
 == Experience
 
@@ -62,7 +62,7 @@
   dates: dates-helper(start-date: "May 2025", end-date: "Aug. 2025"),
 )
 - Architected GradiatorX, an AI-integrated automated grading system using *FastAPI*, *React*, and *Google Cloud Storage*, designed to serve over 500 university instructors and students with intelligent assessment and feedback generation for code-based assignments.
-- Engineered a distributed microservices architecture with *RabbitMQ* message queues and parallel processing workflows, enabling simultaneous dynamic analysis via *Docker* containers and static analysis through *Gemini* and *Semgrep* AST parsing.
+- Engineered a distributed microservices architecture with *RabbitMQ* and parallel processing workflows, enabling simultaneous dynamic analysis via *Docker* containers and static analysis through *Gemini* and *Semgrep* AST parsing.
 - Orchestrated production-ready deployment infrastructure using *Docker Compose*, *PostgreSQL*, *Nginx* load balancing, and comprehensive backup/restore procedures with health monitoring, ensuring 99.9% system availability and seamless horizontal scaling.
 - Designed scalable deadline management and real-time submission handling systems supporting multiple course instances, assignments, and concurrent student submissions with automated workflow orchestration.
 
@@ -98,4 +98,4 @@
 )
 - Assembled a *Conversational GenAI* assistant based on *Retrieval Augmented Generation (RAG)* with *TypeScript*, *React*, *NextUI*, *Express.js*, *MongoDB*, *Langchain*, and *Pinecone* for personalized guidance on students' academic paths. Students can consult on topics ranging from choosing degree programs to selecting courses aligned with academic goals.
 - Conducted data collection with *Python* and *scrapy* from the University's public catalog.
-- Accomplished continuous delivery and integration with *GitHub Actions* workflows and *Docker* images on a self-hosted environment configured on *Oracle Cloud Infrastructure*.
+- Accomplished continuous delivery and integration with *GitHub Actions* workflows and *Docker* images on a self-hosted environment configured on *Google Cloud Platform*.
