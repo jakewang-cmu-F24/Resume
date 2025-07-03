@@ -51,12 +51,12 @@
 
 - *Areas of Interest*: Full-Stack Web Development, Desktop \& Mobile Software Development, OS Kernel Development, Embedded Software \& Firmware Development
 - *Programming Languages*: Python, JavaScript/TypeScript, C/C++, Java, Go, Bash, Assembly, F\#, C\#, Kotlin, Rust
-- *Technologies*: FastAPI, LangChain, Pydantic, SQLAlchemy, Scrapy, pygame, React, Vue.js, Next.js, Express.js, jQuery, Socket.IO, Vite, Jest, CMake, Qt, Arduino, Gradle, JUnit, Jetpack Compose, gRPC, Protocol Buffer, HTML/CSS, Tailwind CSS, PostgreSQL, MongoDB, Docker, Google Cloud Platform, Git, GitHub Actions, Linux, RabbitMQ, Nginx, WebSocket, OpenAPI, Firebase
+- *Technologies*: FastAPI, Pydantic, SQLAlchemy, pygame, React, Vue.js, Next.js, Express.js, jQuery, Socket.IO, Vite, Jest, CMake, Qt, Arduino, Gradle, JUnit, Jetpack Compose, gRPC, Protocol Buffer, HTML/CSS, Tailwind CSS, PostgreSQL, MongoDB, Firebase, Docker, Google Cloud Platform, Git, GitHub Actions, Linux, RabbitMQ, NGINX, WebSocket, OpenAPI
 
 == Experience
 
 #work(
-  title: "Software Developer & Researcher",
+  title: "Software Architect & Researcher",
   location: "Mountain View, CA",
   company: "Carnegie Mellon University",
   dates: dates-helper(start-date: "May 2025", end-date: "Aug. 2025"),
