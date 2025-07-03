@@ -18,7 +18,7 @@
   /* github2: github2, */
   linkedin: linkedin,
   phone: phone,
-  personal-site: personal-site,
+  /* personal-site: personal-site, */
   /* orcid: orcid, */
   /* accent-color: "#000000", */
   font: "New Computer Modern",
@@ -35,7 +35,6 @@
   dates: dates-helper(start-date: "Aug. 2024", end-date: "Dec. 2025"),
   degree: "Master of Science in Software Engineering"
 )
-- Cumulative GPA: 3.89\/4.0 | In Progress
 - Relevant Coursework: Foundation of Software Engineering, Foundation
   of Computer Systems, Software Engineering Method, Intro. to Security, Embedded Software Design
 
@@ -57,39 +56,39 @@
 == Experience
 
 #work(
-  title: "Build System and Tools Software Developer",
-  location: "Ottawa, ON, Canada",
-  company: "Ford Motor Company Canada",
-  dates: dates-helper(start-date: "Sept. 2022", end-date: "Apr. 2023"),
+  title: "Software Developer & Researcher",
+  location: "Mountain View, CA",
+  company: "Carnegie Mellon University",
+  dates: dates-helper(start-date: "May 2025", end-date: "Aug. 2025"),
 )
-- Operated a proprietary system builder (FSB) written in *Go*, which is used internally by over 1000 developers across the ECU \& infotainment system development department.
-- Introduced a #link("https://ninja-build.org/")[Ninja]-like waterfall visualization and tracing feature for package builds, enabling developers to analyze the load of the system and identify bottlenecks faster with #link("https://www.chromium.org/developers/how-tos/trace-event-profiling-tool/")[Chromium's Trace Event Profiling Tool].
-- Rectified a legacy memory leak problem in the log ring buffer with Go profiling tool *pprof* to reduce memory usage from 1 GiB to 100 MiB by 90%.
-- Upgraded offline mode support by ensuring FSB fetches from a local Git mirror instead of remote servers, reducing unintended network activity by 100% in offline builds.
-- Instituted activity-based log splitting, allowing logs to be categorized by build stages, reducing troubleshooting time by 35%.
-- Strengthened build summaries by including failed package names and console logs, improving issue diagnosis efficiency by 50%.
+- Architected GradiatorX, an AI-integrated automated grading system using *FastAPI*, *React*, and *Google Cloud Storage*, designed to serve over 500 university instructors and students with intelligent assessment and feedback generation for code-based assignments.
+- Engineered a distributed microservices architecture with *RabbitMQ* message queues and parallel processing workflows, enabling simultaneous dynamic analysis via *Docker* containers and static analysis through *Gemini* and *Semgrep* AST parsing.
+- Orchestrated production-ready deployment infrastructure using *Docker Compose*, *PostgreSQL*, *Nginx* load balancing, and comprehensive backup/restore procedures with health monitoring, ensuring 99.9% system availability and seamless horizontal scaling.
+- Designed scalable deadline management and real-time submission handling systems supporting multiple course instances, assignments, and concurrent student submissions with automated workflow orchestration.
 
 #work(
   title: "Build System and Tools Software Developer",
   location: "Ottawa, ON, Canada",
   company: "Ford Motor Company Canada",
-  dates: dates-helper(start-date: "Jan. 2022", end-date: "Apr. 2022"),
+  dates: dates-helper(start-date: "Jan. 2022", end-date: "Apr. 2023"),
 )
-- Engineered a build summary feature that generates detailed reports post-build, reducing debugging time by 40% and improving issue diagnosis for developers.
-- Executed automated validation for floating #link("https://blackberry.qnx.com/en/products/foundation-software/qnx-hypervisor")[QNX] licenses, preventing an average of 10% build failures per week due to expired, missing, or misconfigured licenses.
-- Remodeled system initialization code, modularizing key steps and reducing redundant logic, which eliminated all undefined behaviors during project initialization and led to a 10% reduction in initialization time.
+- Operated a proprietary system builder (FSB) written in *Go*, which is used internally by over 1000 developers across the ECU \& infotainment system development department.
+- Introduced a #link("https://ninja-build.org/")[Ninja]-like waterfall visualization and tracing feature for package builds, enabling developers to analyze system load and identify bottlenecks faster with #link("https://www.chromium.org/developers/how-tos/trace-event-profiling-tool/")[Chromium's Trace Event Profiling Tool].
+- Rectified a legacy memory leak problem in the log ring buffer with *pprof*, reducing memory usage from 1 GiB to 100 MiB by 90% and eliminating system crashes.
+- Engineered comprehensive build summary and validation features, reducing debugging time by 40% and preventing 10% of build failures through automated #link("https://blackberry.qnx.com/en/products/foundation-software/qnx-hypervisor")[QNX] license validation.
+- Upgraded offline mode support and remodeled system initialization, reducing unintended network activity by 100% and initialization time by 10%.
 
 == Projects
 
 #project(
-  name: "API World & CloudX 2024 Hackathon: Scrutiny.ai",
-  role: "Full-Stack Developer",
-  dates: dates-helper(start-date: "Oct. 2024", end-date: "Nov. 2024"),
-  url: "github.com/CloudApiHackathon",
+  name: "AgentHacks 2025: One Big, Beautiful Browser",
+  role: "Developer",
+  dates: dates-helper(start-date: "May 23 2025", end-date: "May 24 2025"),
+  url: "https://devpost.com/software/big-beautiful-browser",
 )
-- Devised an integrated interview platform with *TypeScript* and *Next.js* featuring built-in code-based online assessment support, which aims to streamline the interview process.
-- Established serverless computing with *Supabase* edge functions and an *OAuth 2* service with Okta *Auth0*, ensuring high scalability and security.
-- Fashioned an integrated online assessment feature with *Monaco*, *Go*, *Docker*, and *gRPC*, which helps the interviewee evaluate the interviewer's technical skills efficiently.
+- Architected an AI-powered browser extension using *React*, *TypeScript*, *Tailwind CSS*, and *LangGraph SDK* that enables natural language-driven web automation, earning *2 major awards in AgentHacks 2025*.
+- Engineered native *Chrome DevTools Protocol (CDP)* integration with advanced DOM manipulation to improve automation reliability.
+- Implemented intelligent multi-tab coordination and real-time AI agent communication, enabling complex cross-page workflows that reduce manual browsing time by an estimated 80% for repetitive tasks.
 
 #project(
   name: "Bachelor's Capstone: AI Student Advisor",
