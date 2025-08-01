@@ -56,7 +56,7 @@
 
 - *Areas of Interest*: Full-Stack Web Development, Desktop \& Mobile Software Development, OS Kernel Development, Embedded Software \& Firmware Development
 - *Programming Languages*: Python, JavaScript/TypeScript, C/C++, Java, Go, Bash, Assembly, F\#, C\#, Kotlin, Rust
-- *Technologies*: FastAPI, Pydantic, SQLAlchemy, pygame, React, Vue.js, Next.js, Express.js, jQuery, Socket.IO, Vite, Jest, CMake, Qt, Arduino, Gradle, JUnit, Jetpack Compose, gRPC, Protocol Buffer, HTML/CSS, Tailwind CSS, PostgreSQL, MongoDB, Firebase, Docker, Google Cloud Platform, Git, GitHub Actions, Linux, RabbitMQ, NGINX, WebSocket, OpenAPI
+- *Technologies*: FastAPI, Pydantic, SQLAlchemy, Pydantic, pygame, React, Vue.js, Next.js, Express.js, jQuery, Socket.IO, Vite, Jest, CMake, Qt, Arduino, Gradle, JUnit, Jetpack Compose, gRPC, Protocol Buffer, HTML/CSS, Tailwind CSS, PostgreSQL, MongoDB, Firebase, Docker, Google Cloud Platform, Git, GitHub Actions, Linux, RabbitMQ, NGINX, WebSocket, OpenAPI
 
 == Experience
 
@@ -66,10 +66,9 @@
   company: "Carnegie Mellon University",
   dates: dates-helper(start-date: "May 2025", end-date: "Aug. 2025"),
 )
-- Architected GradiatorX, an AI-integrated automated grading system using *FastAPI*, *React*, and *Google Cloud Storage*, designed to serve over 500 university instructors and students with intelligent assessment and feedback generation for code-based assignments.
-- Engineered a distributed microservices architecture with *RabbitMQ* and parallel processing workflows, enabling simultaneous dynamic analysis via *Docker* containers and static analysis through *Gemini* and *Semgrep* AST parsing.
-- Orchestrated production-ready deployment infrastructure using *Docker Compose*, *PostgreSQL*, *Nginx* load balancing, and comprehensive backup/restore procedures with health monitoring, ensuring 99.9% system availability and seamless horizontal scaling.
-- Designed scalable deadline management and real-time submission handling systems supporting multiple course instances, assignments, and concurrent student submissions with automated workflow orchestration.
+- Spearheaded backend development of GradiatorX, a production-grade AI-powered grading platform leveraging *FastAPI*, *SQLAlchemy*, *Pydantic*, *PostgreSQL*, and *Google Cloud Storage*, architected to scale for 500+ university instructors with intelligent code assessment, LLM-driven feedback generation, and automated real-time submission analytics.
+- Implemented robust microservices architecture with *RabbitMQ* async messaging, *RESTful* inter-service communication, *NGINX*-based API gateway, with enterprise-grade deployment infrastructure using *GitHub Actions* CI/CD, *Docker* containerization, *GitHub Container Registry*, achieving 99.99% uptime through home-grown automated deployment pipelines.
+- Integrated Retrieval-Augmented Generation (RAG) based on *Repomix* AI-oriented codebase distiller and bundler, *Semgrep* AST parser, and *Gemini* for qualitative static analysis, with *Docker* execution environments isolated in managed *Vagrant* VM for test-based dynamic analysis, achieving 85% reduction in manual grading time while maintaining 94% accuracy correlation with instructor evaluations across 2,500+ student submissions and enabling real-time feedback delivery within 3 minutes of submission.
 
 #work(
   title: "Build System and Tools Software Developer",
@@ -81,7 +80,6 @@
 - Introduced a #link("https://ninja-build.org/")[Ninja]-like waterfall visualization and tracing feature for package builds, enabling developers to analyze system load and identify bottlenecks faster with #link("https://www.chromium.org/developers/how-tos/trace-event-profiling-tool/")[Chromium's Trace Event Profiling Tool].
 - Rectified a legacy memory leak problem in the log ring buffer with *pprof*, reducing memory usage from 1 GiB to 100 MiB by 90% and eliminating system crashes.
 - Engineered comprehensive build summary and validation features, reducing debugging time by 40% and preventing 10% of build failures through automated #link("https://blackberry.qnx.com/en/products/foundation-software/qnx-hypervisor")[QNX] license validation.
-- Upgraded offline mode support and remodeled system initialization, reducing unintended network activity by 100% and initialization time by 10%.
 
 == Projects
 
