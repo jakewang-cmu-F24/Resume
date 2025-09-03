@@ -5,7 +5,7 @@
 #let email = "jakewang@andrew.cmu.edu"
 #let github-personal = "github.com/wxx9248"
 #let github-cmu = "github.com/jakewang-cmu-F24"
-#let linkedin = "linkedin.com/in/wxx9248"
+#let linkedin = "www.linkedin.com/in/wxx9248"
 #let phone = "+1 (650) 602-4058"
 #let orcid = "0009-0007-7089-749X"
 #let personal-site = "www.andrew.cmu.edu/user/jakewang/"
@@ -87,7 +87,7 @@
   name: "AgentHacks 2025: One Big, Beautiful Browser",
   role: "Developer",
   dates: dates-helper(start-date: "May 23 2025", end-date: "May 24 2025"),
-  url: "https://devpost.com/software/big-beautiful-browser",
+  url: "devpost.com/software/big-beautiful-browser",
   display-url: false
 )
 - Architected an AI-powered browser extension using *React*, *TypeScript*, *Tailwind CSS*, and *LangGraph SDK* that enables natural language-driven web automation, earning *2 major awards in AgentHacks 2025*.
