@@ -41,7 +41,9 @@
   degree: "Master of Science in Software Engineering"
 )
 - Relevant Coursework: Foundation of Software Engineering, Foundation
-  of Computer Systems, Software Engineering Method, Intro. to Security, Embedded Software Design
+  of Computer Systems, Software Engineering Method, Software Testing,
+  Cloud Infrastructure, Information Security, Browser Security, Embedded Systems,
+  Embedded Software Design
 
 #edu(
   institution: "University of Ottawa",
