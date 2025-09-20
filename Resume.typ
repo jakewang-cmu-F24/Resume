@@ -56,9 +56,9 @@
 
 == Skills
 
-- *Areas of Interest*: Full-Stack Web Development, Desktop \& Mobile Software Development, OS Kernel Development, Embedded Software \& Firmware Development
-- *Programming Languages*: Python, JavaScript/TypeScript, C/C++, Java, Go, Bash, Assembly, F\#, C\#, Kotlin, Rust
-- *Technologies*: FastAPI, Pydantic, SQLAlchemy, Pydantic, pygame, React, Vue.js, Next.js, Express.js, jQuery, Socket.IO, Vite, Jest, CMake, Qt, Arduino, Gradle, JUnit, Jetpack Compose, gRPC, Protocol Buffer, HTML/CSS, Tailwind CSS, PostgreSQL, MongoDB, Firebase, Docker, Google Cloud Platform, Git, GitHub Actions, Linux, RabbitMQ, NGINX, WebSocket, OpenAPI
+- *Areas of Interest*: Full-Stack Web Development, Desktop \& Mobile Software Development, Linux Kernel Development, Embedded Software \& Firmware Development
+- *Programming Languages*: Python, JavaScript/TypeScript, C/C++, Java, Go, Bash, Assembly (x86, ARM), F\#, C\#, Kotlin, Rust
+- *Technologies*: FastAPI, Pydantic, SQLAlchemy, Pydantic, pygame, React, Vue.js, Next.js, Express.js, jQuery, Socket.IO, Vite, Jest, CMake, Qt, Arduino, Gradle, JUnit, Jetpack Compose, gRPC, Protocol Buffer, HTML/CSS, Tailwind CSS, PostgreSQL, MongoDB, Firebase, Docker, Kubernetes, GCP, AWS, Git, GitHub Actions, Linux, RabbitMQ, NGINX, WebSocket, OpenAPI
 
 == Experience
 
