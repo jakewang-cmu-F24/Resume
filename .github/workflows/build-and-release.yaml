@@ -27,7 +27,7 @@ jobs:
             mv $(basename $f .typ).pdf release/
           done
       - name: Upload artifact
-        uses: actions/upload-artifact@v4
+        uses: actions/upload-artifact@v5
         with:
           name: Resumes
           path: release/
