@@ -40,6 +40,7 @@
   dates: dates-helper(start-date: "Aug. 2024", end-date: "Dec. 2025"),
   degree: "Master of Science in Software Engineering"
 )
+- Cumulative GPA: 3.8\/4.0
 - Relevant Coursework: Foundation of Software Engineering, Foundation
   of Computer Systems, Software Engineering Method, Software Testing,
   Cloud Infrastructure, Information Security, Browser Security, Embedded Systems,
